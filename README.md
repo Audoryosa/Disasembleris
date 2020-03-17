@@ -61,7 +61,7 @@ disasm pvz.com rez.txt
 </br></br>
 <strong>Visi DEC variantai (2);</strong></br>
 0100 1reg – DEC registras (žodinis)</br>
-1111 111w mod 001 r/m [poslinkis] – DEC registras/atmintis(+)</br>
+1111 111w mod 001 r/m [poslinkis] – DEC registras/atmintis</br>
 48 - 4F</br>FF - FE</br>
 </br></br>
 <strong>Visi SUB variantai (3);</strong></br>
@@ -72,8 +72,8 @@ disasm pvz.com rez.txt
 2C - 2D</br>80 - 83</br>28 - 2B</br>
 </br></br>
 <strong>Visi CMP variantai (3);</strong></br>
-0011 10dw mod reg r/m [poslinkis] – CMP registras ~ registras/atmintis(+)</br>
-0011 110w bojb [bovb] – CMP akumuliatorius ~ betarpiškas operandas(+)</br>
+0011 10dw mod reg r/m [poslinkis] – CMP registras ~ registras/atmintis</br>
+0011 110w bojb [bovb] – CMP akumuliatorius ~ betarpiškas operandas</br>
 1000 00sw mod 111 r/m [poslinkis] bojb [bovb] – CMP registras/atmintis ~ betarpiškas operandas</br> 
 38 - 3B</br>3C - 3B</br>80 - 83</br>
 </br></br>
@@ -86,7 +86,7 @@ F6 - F7</br>
 F6 - F7</br>
 </br></br>
 <strong>Visi CALL variantai (4);</strong></br>
-1001 1010 ajb avb srjb srvb – CALL žymė (išorinis tiesioginis)(+)</br>
+1001 1010 ajb avb srjb srvb – CALL žymė (išorinis tiesioginis)</br>
 1110 1000 pjb pvb – CALL žymė (vidinis tiesioginis)</br>
 1111 1111 mod 010 r/m [poslinkis] – CALL adresas (vidinis netiesioginis)</br>
 1111 1111 mod 011 r/m [poslinkis] – CALL adresas (išorinis netiesioginis)</br>
@@ -94,7 +94,7 @@ F6 - F7</br>
 </br></br>
 <strong>Visi RET variantai (4);</strong></br>
 1100 0010 bojb bovb – RET betarpiškas operandas; RETN betarpiškas operandas</br>
-1100 0011 – RET; RETN(+)</br>
+1100 0011 – RET; RETN</br>
 1100 1010 bojb bovb – RETF betarpiškas operandas</br>
 1100 1111 – IRET</br>
 C2</br>C3</br>CA</br>CF</br>
@@ -132,7 +132,7 @@ E9</br>EA</br>EB</br>FF</br>FF</br>
 D2</br>
 </br></br>
 <strong>Komanda INT;</strong></br>
-1100 1101 numeris – INT numeris (+)  *DONE*</br>
+1100 1101 numeris – INT numeris</br>
 CD</br>
 </br></br></br></br></br></br>
 <hr>
