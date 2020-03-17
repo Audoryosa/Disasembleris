@@ -1,4 +1,4 @@
-# Disassembler
+# Disasembleris
 Kompiuterių architektūros viena iš užduočių: Intel 8086 disasembleris, parašyta Intel 8086 assembly kalba.
 
 Programa nuskaito .com faile esantį mašininį kodą ir jį paverčia į assembly kalbos komandas. Rezultatą užrašo į failą
