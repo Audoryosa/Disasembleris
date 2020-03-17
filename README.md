@@ -41,7 +41,7 @@ disasm pvz.com rez.txt
 <strong>Visi POP variantai (3);</strong></br>
 0101 1reg – POP registras (žodinis)</br>
 000sr 111 – POP segmento registras</br>
-1000 1111 mod 000 r/m [poslinkis] – POP registras/atmintis(+)</br>
+1000 1111 mod 000 r/m [poslinkis] – POP registras/atmintis</br>
 <strong>Komandos HEX formatuose</strong></br>
 58 - 5F</br>07 - 1F</br>8F</br>
 
