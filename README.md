@@ -12,6 +12,8 @@ DOS emuliatorius DOSBox: http://www.dosbox.com/
 DOSBOX'e:
 pirma pakeičiam direktoriją ten, kur yra disasm.asm failas kartu su .com failu.
 ```
+git clone https://github.com/Audoryosa/Disasembleris.git
+
 tasm disasm.asm
 tlink disasm.obj
 disasm pvz.com rez.txt
